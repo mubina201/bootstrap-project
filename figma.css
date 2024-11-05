@@ -1,0 +1,365 @@
+#header{
+    background-image: url("Image/background_sec.png");
+    color: white;
+    background-repeat: no-repeat;
+    background-color: #26335D;
+    background-size: 100%;
+}
+#header a{
+    color: white;
+}
+#header .fon{
+    background-color: #8D5CF6;
+    color: white;
+    width: 195px;
+    height: 52px;
+    padding: 15px 40px 15px 40px;
+    gap: 10px;
+    border-radius: 5px;
+}
+.d-flex .fw-semibold:active{
+    background-color: #8D5CF6;
+} 
+#header .fon:hover{
+    background-color: none;
+}
+#header .btn{
+    color: white;
+}
+#header .btn-text{
+    color: white;
+    line-height: 22.8px;
+}
+#header .btn:hover{
+    border: 1px solid white;
+}
+.row .top{
+    margin-top: 83px;
+}
+.frame{
+    border: 1px solid white;
+    color: white;
+    width: 162px;
+    height:52px;
+    padding: 15px 40px 15px 40px;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px 0px 0px 0px;
+}
+#header .frame:hover{
+    border: 1px solid #8D5CF6;
+    background-color: #8D5CF6;
+}
+#header .row{
+    margin-top: 90px;
+    gap: 30px;
+    padding-bottom: 40px;
+    margin-bottom: 90px;
+}
+#header .row .col-md-4{
+    height: 288px;
+    width: 328px;
+}
+#header .row .card{
+    padding: 35px 40px;
+    gap: 20px;
+}
+#header .row .img{
+    width: 72px;
+    height: 72px;
+}
+#header .row h3{
+    height: 24px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #252B42;
+}
+#header .row img{
+    height: 2px;
+    width: 50px;
+}
+#header .row p{
+    width: 222px;
+    height: 60px;
+    font-weight: 500;
+    color:#737373;
+}
+/* Experts Start */
+#header .row .blok2{ 
+    left: 195px;
+    display: flex;
+    justify-content: space-between;
+}
+#header .blok2 .col-lg-6 img{
+    height: 451px;
+    width: 521px;
+} 
+#header .blok2 .col-lg-6{
+    padding-left: 130px;
+}
+#header .blok2 .col-lg-5{
+    display: grid;
+    padding-left: 60px;
+    padding-top: 80px;
+}
+#header .blok2 .col-lg-5 img{
+    width: 94px;
+    height: 7px;
+}
+#header .blok2 .col-lg-5 h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    width: 255px;
+    height: 100px;
+}
+#header .blok2 .col-lg-5 p{
+    width: 351px;
+    height: 60px;
+    font-weight: 400;
+    line-height: 20px;
+}
+#header .blok2 .col-lg-5 a{
+    text-decoration: none;
+    color: #8D5CF6;
+    width: 88px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 700;
+}
+/* Experts End */
+/* Packages Start */
+.packages{
+    padding: 160px 160px;
+}
+#header .packages .col-md-5 img{
+    height: 7px;
+    width: 94px;
+}
+#header .packages .col-md-5 h1{
+    width: 446px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+#header .packages .col-md-5 p{
+    width: 351px;
+    height: 60px;
+    font-weight: 400;
+    line-height: 20px;
+}
+#header .packages .col-md-5 a{
+    text-decoration: none;
+    color: #8D5CF6;
+    width: 88px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 700;
+}
+#header .packages .col-md-6{
+    background-image: url("Image/book.png");
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+#header .packages .col-md-6 .video{
+    width: 508px;
+    height: 363px;
+    border-radius: 20px;
+}
+#header .packages .col-md-6 .video img{
+    width: 92.6px;
+    height: 92.6px;
+    display: flex;
+    margin-left: 194px;
+    margin-top: 136px;
+}
+#header .packages .col-md-6 .video:hover img{
+    box-shadow: 0 0 5px black;
+    border-radius: 100%;
+    cursor: pointer;
+}
+/* Packages End */
+/* Courses start */
+.course{
+    margin-top: 300px;
+}
+.course .main-content{
+    display: grid;
+    gap: 10px;
+}
+.course .main-content h6 , #header .mentor .q1 a{
+    color: #8D5CF6;
+}
+.main-content h1{
+    width: 420px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+#header .main-content p{
+    width: 469px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.course .card{
+    border-radius: 0;
+}
+#header .course .col-lg-6 a{
+    color: #8D5CF6;
+    text-decoration: none;
+}
+#header .col{
+    border-radius: 20px;
+    background-color: #26335D;
+}
+.card-body div{
+    display: flex;
+}
+.course .card-body h6{
+    color: #252B42;
+}
+.rasm img{
+    border-radius: 0;
+}
+.rasm{
+    position: relative;
+}
+.rasm button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
+    background-color: #E74040;
+    box-sizing: border-box;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    margin: 15px 10px;
+}
+.rasm .buttons{
+    position: absolute;
+    bottom: 30px;
+    left: 30%;
+    width: 50%;
+}
+.buttons i{
+    font-size: 20px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+}
+.buttons i:hover{
+    cursor: pointer;
+}
+.course .card-body .col-lg-5 span{
+    background-color: #26335D;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+}
+#header .course .col-lg-6 a:hover{
+    color: purple;
+}
+.course .more{
+    text-decoration: none;  
+    border: 1px solid #8D5CF6;
+    width: 140px;
+    border-radius: 20px;
+    color: #8D5CF6;
+    padding: 7px 12px;
+    text-align: center;
+    padding-left: 20px;
+}
+.course .more:hover{
+    background-color: #8D5CF6;
+    cursor: pointer;
+}
+/* Courses end*/
+/* Mentor Start */
+.mentor{
+    margin-top: 300px;
+}
+.mentor a{
+    text-decoration: none;
+}
+#header .mentor .q1 p{
+    width: 360px;
+    line-height: 20px;
+    font-size: 16px;
+}
+#header .mentor .q1 a:hover{
+    color: white;
+}
+.mentor .q2 div{
+    background-color: white;
+    text-align: center;
+}
+.mentor .q2 span i{
+    color: #FFCE31;
+    font-size: 20px;
+}
+.mentor .q2 h6{
+    color: #8D5CF6;
+}
+/* Mentor End */
+/* Newsletter Start */
+.newsletter a{
+    color: #8D5CF6;
+    text-decoration: none;
+    font-size: 18px;
+}
+.newsletter a:hover{
+    color: white;
+    cursor: pointer;
+}
+.newsletter button{
+    background-color: #8D5CF6;
+}
+/* Newsletter End */
+/* Footer Start */
+.footer1 p a{
+    color: white;
+    text-decoration: none;
+}
+.footer1 p{
+    line-height: 1;
+}
+.footer1 p a:hover{
+    color: #8D5CF6;
+}
+.footer2{
+    background-color:white;
+}
+.footer2 a i{
+    color: #8D5CF6;
+    font-size: 20px;
+    margin: 10px;
+}
+/* Footer End */
+/* Responsive Start */
+/* Mobile Version */
+@media only screen and (max-width:600px){
+
+.navbar #menu #navbarText{
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+#menu ul li a , #header #menu form button{
+    color: #8D5CF6;
+}
+#menu form , #menu ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+}
+/* Responsive End */
